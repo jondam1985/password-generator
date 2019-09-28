@@ -69,6 +69,9 @@ function passwordGenerator() {
 
     document.getElementById("password-area").innerHTML=password;
 
+    let copyButton = document.getElementById("copy");
+    copyButton.disabled = false;
+
     return console.log(password);
 }
 

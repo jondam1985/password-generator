@@ -78,6 +78,11 @@ button:hover {
     margin-left: 10px;
 }
 
+#copy:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
 @media only screen and (max-width: 850px) {
 
     .outer-container {
