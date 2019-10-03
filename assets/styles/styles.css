@@ -5,7 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.outer-container {
+.outerContainer {
     margin: 50px auto 0 auto;
     width: 60%;
     height: 600px;
@@ -23,7 +23,7 @@ hr {
     margin-bottom: 20px;
 }
 
-.inner-container {
+.innerContainer {
     width: 99%;
     height: 450px;
     margin-left: auto;
@@ -33,7 +33,7 @@ hr {
     box-shadow: 0 0 5px 2px rgb(147, 192, 192);
 }
 
-#password-area {
+#passwordArea {
     width: 100%;
     overflow-wrap: break-word;
     text-align: center;
@@ -58,34 +58,34 @@ button:hover {
     box-shadow: 0 0 5px 5px rgb(46, 182, 182);
 }
 
-.buttons-area {
+.buttonsArea {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-#generator {
+#passwordButton {
     background-color: #6b1515;
     font-size: 20px;
     color: #ffffff;
     margin-right: 10px;
 }
 
-#copy {
+#copyButton {
     background-color: rgb(147, 192, 192);
     font-size: 20px;
     color: #ffffff;
     margin-left: 10px;
 }
 
-#copy:disabled {
+#copyButton:disabled {
     opacity: 0.5;
     cursor: not-allowed;
 }
 
 @media only screen and (max-width: 850px) {
 
-    .outer-container {
+    .outerContainer {
         width: 90%;
     }
 
@@ -93,35 +93,35 @@ button:hover {
     
 @media only screen and (max-width: 560px) {
     
-    .outer-container {
+    .outerContainer {
         height: 625px;
     }
 
-    .inner-container {
+    .innerContainer {
         height: 475px;
     }
     
     
-    .buttons-area {
+    .buttonsArea {
         display: block;
     }
 
-    #generator, #copy {
+    #passwordButton, #copyButton {
         display: block;
         margin: 0 auto 5px auto;
     }
 
-    #password-area {
+    #passwordArea {
         font-size: 16px;
     }
 
 }
 
 @media only screen and (max-width: 560px) {
-    .outer-container {
+    .outerContainer {
         height: 650px;
     }
-    .inne-container {
+    .innerContainer {
         height:500px;
     }
 }

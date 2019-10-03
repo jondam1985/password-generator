@@ -7,24 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Password Generator</title>
     <link rel="stylesheet" type="text/css" href="assets/styles/styles.css">
-    <script src="assets/scripts/script.js"></script>
 </head>
 
 <body>
-    <div class="outer-container">
+    <div class="outerContainer">
         <h1>Password Generator</h1>
-        <div class="inner-container">
+        <div class="innerContainer">
             <h2>Generate Password</h2>
             <hr>
-            <textarea id="password-area" type="textarea">Your secure password will be generated in this area.</textarea>
+            <textarea id="passwordArea" type="textarea">Your secure password will be generated in this area.</textarea>
             <hr>
-            <div class="buttons-area">
-                <button onclick="passwordGenerator()" id="generator">Generate password</button>
-                <button onclick="copy()" id="copy" disabled>Copy to clipboard</button>
+            <div class="buttonsArea">
+                <button id="passwordButton">Generate password</button>
+                <button id="copyButton" disabled>Copy to clipboard</button>
             </div>
             </div>
         </div>
     </div>
+    <script src="assets/scripts/script.js"></script>
 </body>
 
 </html>
