@@ -8,9 +8,9 @@ This project is a web application that generated a random password between 8 and
 
 ## Table of Contents
 
-- [Installation](# Installation)
+- [Installation](#Installation)
 
-- [Usage](# Usage)
+- [Usage](#Usage)
 
 - [Credits](#Credits)
 
